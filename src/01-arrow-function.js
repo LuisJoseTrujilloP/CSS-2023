@@ -6,7 +6,7 @@ function square(num){
 
 // NEW VERTION WITH ECMASCRIPT
 const squareNew = num => num * num;
-
+// as we can se this is a better way to create functions since is a lot more summarized
 
 
 //print results
