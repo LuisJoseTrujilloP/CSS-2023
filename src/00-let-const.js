@@ -1,5 +1,5 @@
 /// before we only used var such as>
-var LastName = "David";
+var lastName = "David";
 lastName = "Oscar";
 let fruit = 'Apple';
 fruit = 'Kiwi';
