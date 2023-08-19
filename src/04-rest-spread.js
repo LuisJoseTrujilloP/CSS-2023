@@ -12,5 +12,15 @@ let { username, age } = user;
 let person = { name: 'oscar', age : 28 };
 let country = 'MX'
 
-let data = { ...person, country }
+let data =  { id: 1, ...person, country }
 console.log(data)
+
+// rest 
+
+function sum(num, ...values) {
+    console.log(values)
+    console.log(num+values[2])
+    return num + values
+}
+
+sum(1, 1, 2, 3);
