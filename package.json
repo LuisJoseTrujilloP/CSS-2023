@@ -11,5 +11,6 @@
     "ecmascript"
   ],
   "author": "Luis Trujillo",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
