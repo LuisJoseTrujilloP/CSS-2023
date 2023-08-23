@@ -13,3 +13,15 @@ const it = iterate(['Oscar', 'Luis', 'David',]);
 console.log(it.next().value)
 console.log(it.return())
 console.log(it.value)
+
+
+
+// example, generating an ID, for each .next a new ID can be generated based on the last one to avoid creating the same ID for two items
+
+function* getId() {
+    let id = 0
+    while(true){
+        id++
+        yield id
+    }
+}
