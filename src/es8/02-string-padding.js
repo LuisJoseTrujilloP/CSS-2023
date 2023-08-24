@@ -3,5 +3,5 @@ const string = 'Hello';
 console.log(string.padStart(10, '1'))
 console.log(string.padStart(10, '- '))
 
-// padEnd is similar 
+// padEnd is similar  
 console.log(string.padEnd(10, '- '))
